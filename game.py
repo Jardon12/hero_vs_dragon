@@ -1,5 +1,8 @@
 import random
 # import random is a simple library that implements the random number generator behavior
+print("Hi! Welcome to the Dragonborn game!\n")
+print("In this game, our valiant hero must face a deadly battle against a terrifying dragon\n")
+print("Are you ready?\n")
 
 # Please read into the variables below the correct numbers. Use try and except to catch error.
 # a simple example would be:
@@ -17,7 +20,7 @@ while True:
         print("Something happened. Please try again")
 print("The dragon with", dragon_hp, "hp attacks out hero with", hero_hp, "hp")
 
-# add a While for an infinite blockj
+# add a While for an infinite block
 while hero_hp >0 or dragon_hp > 0:
     dragon_attack = random.randint(1, dragon_max_dmg)
     # here you need to update the hero hp, you need to subtract the damage that the dragon did
